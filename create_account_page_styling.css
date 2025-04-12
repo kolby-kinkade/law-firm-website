@@ -1,0 +1,165 @@
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 23px;
+}
+
+p {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#logo_container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the top navigation bar */
+#page_select {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #171717 !important;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Style the topnav links */
+#page_select a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-family: Garamond, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+/* Change color on hover */
+#page_select a:hover {
+  background-color: #DA0037;
+  color: white;
+}
+
+#login_create_account_page {
+  background-color: #DA0037;
+  color: white;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Style the content */
+#content {
+  background-color: #EDEDED;
+}
+       
+        
+input {
+	font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;    
+    cursor: pointer;
+    border-style: solid;
+    border-color: #DA0037;
+    border-width: 2px;
+}
+
+#account_page_selector {
+	margin-left: 70%;
+}
+       
+#login_tab{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 3%;
+    margin-bottom: 3%;
+}         
+ 
+/* Change color on hover */
+#login_tab:hover{
+	background-color: #DA0037;
+  	border-color: #171717;
+}         
+        
+#create_account_container {
+	clear: both;
+	margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #171717;
+    background-color: #171717;
+}
+
+#input_area {
+    width: 105%;
+	background-color: #444444;
+    margin-top: 7%;
+    margin-bottom: 3%;
+	border-style: solid;
+    border-color: #DA0037;
+    transform: translateX(-2.5%);
+}
+
+#create_account_input {
+	display: flex;
+	flex-direction: column;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+	color: white;
+}
+
+.input_row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+input[type="radio"] {
+	accent-color: #DA0037;
+}
+   
+#create_account_button {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding-bottom: 15px;
+}
+ 
+/* Change color on hover */
+#create_account:hover {
+	background-color: #DA0037;
+  	border-color: #171717;
+}
+        
+#footer {
+    clear: both;
+    margin-top: 4%;
+}
+
+#footer p{
+    font-size: 15px !important;
+    text-align: center;
+}        

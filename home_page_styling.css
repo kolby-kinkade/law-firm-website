@@ -1,0 +1,301 @@
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 23px;
+}
+
+p {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+
+#logo_container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the top navigation bar */
+#page_select {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #171717 !important;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Style the topnav links */
+#page_select a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-family: Garamond, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+/* Change color on hover */
+#page_select a:hover {
+  background-color: #DA0037;
+  color: white;
+}
+
+#home_page {
+  background-color: #DA0037;
+  color: white;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Style the content */
+#content {
+  background-color: #EDEDED;
+}
+
+#company_name {
+	background-color: #DA0037;
+	text-align: center;
+}
+
+#background_container {
+    position: relative;
+    display: block;
+}
+
+#background_img {
+    opacity: 0.75;
+    width: 100%;
+    height: 600px;
+}
+
+#overlay_txt{
+	position: absolute;
+    top: 10%;
+    left: 3%;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+#practice_title {
+	text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #DA0037;
+}
+
+#practices_txt {
+	text-align: center;
+}
+
+
+#practices_container {
+	border-style: solid;
+    border-width: 6px;
+    border-color: #DA0037;
+    background-color: #444444;
+    padding: 10px;
+    overflow: auto;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#business_practices {
+    padding: 10px;
+    overflow: auto;
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#business_img {
+   width: 350px;
+   height: auto;
+   border-radius: 10px;
+   padding-top: 7px;
+}
+
+#business_txt {
+	color: white;
+    padding: 10px;
+    padding-left: 2%;
+}
+
+#electronic_practices {
+    padding: 10px;
+    overflow: auto;
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#electronic_img {
+   width: 350px;
+   height: 250px;
+   border-radius: 10px;
+   padding-top: 7px;
+}
+
+#electronic_txt {
+	color: white;
+    padding: 10px;
+    padding-right: 2%;
+}
+
+ul li{
+	padding: 5px;
+    color: white;
+}
+
+#info_container {
+	clear: both;
+	display: flex;
+    margin-bottom: 3%;
+}
+
+#info {
+	clear: both;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #EDEDED;
+    padding: 10px;
+    display: inline-block;
+    width: 45%;
+    margin-left: 3%;
+}
+
+#info h2{
+	text-decoration-line: underline;
+    text-decoration-color: #DA0037;
+}
+
+div.scroll-container {
+  background-color: #171717;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  width: 45%;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width: 300px;
+  height: 290px;
+}
+
+#support_container {
+	clear: both;
+	display: flex;
+    margin-bottom: 3%;
+}
+
+#consult_img_container {
+  	border-style: solid;
+    background-color: #171717;
+    padding: 15px;
+    overflow: auto;
+    margin-left: 3%;
+}
+
+#suppoting_reasons {
+	clear: both;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #EDEDED;
+    padding: 10px;
+    display: inline-block;
+    width: 45%;
+    margin-left: 3%
+}
+
+#suppoting_reasons h2{
+	text-decoration-line: underline;
+    text-decoration-color: #DA0037;
+}
+
+#contact_us {
+	clear:both;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #DA0037;
+}
+
+#contact_info {
+	clear: both;
+	display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#address {
+	text-align:center;
+}
+
+#contact {
+	text-align:center;
+}
+
+#email {
+	text-align:center;
+}
+
+#email_info {
+	text-align: left;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+#email_info td{
+	padding-left: 30px;
+}
+
+#email_info .name{
+	text-align: center;
+}
+
+#oper_hours {
+	text-align:center;
+}
+
+#day_times {
+	text-align: left;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+#day_times td{
+	padding-left: 30px;
+}
+
+#footer {
+    clear: both;
+    margin-top: 4%;
+}
+
+#footer p{
+    font-size: 15px !important;
+    text-align: center;
+}

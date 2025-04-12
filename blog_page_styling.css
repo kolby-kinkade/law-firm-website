@@ -1,0 +1,167 @@
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 23px;
+}
+
+p {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+a {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 17px;
+    color: white;
+}
+
+
+#overlay {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+	cursor: pointer;
+}
+
+.overlay_txt{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 50px;
+	color: white;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+
+#logo_container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the top navigation bar */
+#page_select {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	background-color: #171717 !important;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+/* Style the topnav links */
+#page_select a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 15px 30px;
+	text-decoration: none;
+	font-family: Garamond, "Times New Roman", serif;
+	font-size: 20px;
+}
+
+/* Change color on hover */
+#page_select a:hover {
+	background-color: #DA0037;
+	color: white;
+}
+
+#blog_page {
+	background-color: #DA0037;
+	color: white;
+	pointer-events: none;
+	cursor: default;
+}
+
+/* Style the content */
+#content {
+	background-color: #EDEDED;
+}
+    
+    
+#welcome_head {
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-color: #DA0037;
+}
+    
+    
+button {
+	font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;    
+    cursor: pointer;
+    border-style: solid;
+    border-color: #DA0037;
+    margin-left: 80%;
+    border-width: 2px;
+}
+
+/* Change color on hover */
+button:hover {
+	background-color: #DA0037;
+  	border-color: #171717;
+}
+    
+
+#blog_posts {
+	background-color: #171717;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog_post {
+    background-color: #444444 !important;
+    width: 85%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 25px;
+    border-style: solid;
+    border-color: #DA0037;
+    color: white;  
+}
+
+.blog_head {
+	display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0%;
+}
+
+#date {
+	font-size: 17px;
+    margin-left: auto;
+    padding-right: 25px;
+}
+
+.blog_link {
+	padding-top: 20px;
+}
+    
+#footer {
+    clear: both;
+    margin-top: 4%;
+}
+
+#footer p{
+    font-size: 15px !important;
+    text-align: center;
+}

@@ -1,0 +1,363 @@
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 23px;
+}
+
+h5 {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+}
+
+p {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+a {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 17px; 
+}
+
+i {
+    font-size: 16px;
+    color: white;
+}
+
+
+#logo_container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the top navigation bar */
+#page_select {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	background-color: #171717 !important;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+/* Style the topnav links */
+#page_select a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 15px 30px;
+	text-decoration: none;
+	font-family: Garamond, "Times New Roman", serif;
+	font-size: 20px;
+}
+
+/* Change color on hover */
+#page_select a:hover {
+	background-color: #DA0037;
+	color: white;
+}
+
+#team_page {
+	background-color: #DA0037;
+	color: white;
+	pointer-events: none;
+	cursor: default;
+}
+
+/* Style the content */
+#content {
+	background-color: #EDEDED;
+	border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+
+#member_info {
+	display: flex;
+	flex-direction: column;
+}
+
+#ashley_basnett_info {
+    border-style: solid;
+    border-width: 6px;
+    border-color: #DA0037;
+    background-color: #444444;
+    padding: 10px;
+    margin-top: 3%;
+    overflow: auto;
+    display: inline-block;
+}
+
+#ashley_basnett_img_container {
+	float: left;
+    margin-right: 2%;
+}
+
+#ashley_basnett_img {
+	width: 350px;
+	height: 375px;
+	border-radius: 10px;
+	padding-top: 7px;
+}
+
+#ashley_basnett_txt {
+	color: white;
+    padding: 10px;
+}
+
+#ashley_basnett_contact {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+#ashley_basnett_links {
+    margin-left: auto;
+    padding-left: 6%;
+}
+
+#ashley_basnett_links a{
+    padding: 10px;
+	color: white;
+}
+
+/* Change color on hover */
+#ashley_basnett_links a:hover {
+	color: #DA0037;
+}
+
+
+
+#jay_reeve_info {
+    border-style: solid;
+    border-width: 6px;
+    border-color: #DA0037;
+    background-color: #444444;
+    padding: 10px;
+    margin-top: 3%;
+    overflow: auto;
+    display: inline-block;
+}
+
+#jay_reeve_img_container {
+	float: left;
+    margin-right: 2%;
+}
+
+#jay_reeve_img {
+	width: 350px;
+	height: 375px;
+	border-radius: 10px;
+	padding-top: 7px;
+}
+
+#jay_reeve_txt {
+    color: white;
+    padding: 10px;
+}
+
+#jay_reeve_contact {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+#jay_reeve_links {
+    margin-left: auto;
+    padding-left: 6%;
+}
+
+#jay_reeve_links a{
+    padding: 10px;
+	color: white;
+}
+
+/* Change color on hover */
+#jay_reeve_links a:hover {
+	color: #DA0037;
+}
+
+
+
+
+#roger_hart_info {
+    border-style: solid;
+    border-width: 6px;
+    border-color: #DA0037;
+    background-color: #444444;
+    padding: 10px;
+    margin-top: 3%;
+    overflow: auto;
+    display: inline-block;
+}
+
+#roger_hart_img_container {
+	float: left;
+    margin-right: 2%;
+}
+
+#roger_hart_img {
+	width: 350px;
+	height: 375px;
+	border-radius: 10px;
+	padding-top: 7px;
+}
+
+#roger_hart_txt {
+    color: white;
+    padding: 10px;
+}
+
+#roger_hart_contact {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+#roger_hart_links {
+	margin-left: auto;
+    padding-left: 6%;
+}
+
+#roger_hart_links a{
+    padding: 10px;
+	color: white;
+}
+
+/* Change color on hover */
+#roger_hart_links a:hover {
+	color: #DA0037;
+}
+
+
+
+
+#rhonda_reeve_info {
+    border-style: solid;
+    border-width: 6px;
+    border-color: #DA0037;
+    background-color: #444444;
+    padding: 10px;
+    margin-top: 3%;
+    overflow: auto;
+    display: block;
+}
+
+#rhonda_reeve_img_container {
+	float: left;
+    margin-right: 2%;
+}
+
+#rhonda_reeve_img {
+	width: 350px;
+	height: 375px;
+	border-radius: 10px;
+	padding-top: 7px;
+}
+
+#rhonda_reeve_txt {
+    color: white;
+    padding: 10px;
+}
+
+#rhonda_reeve_contact {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+#rhonda_reeve_links {
+	margin-left: auto;
+    padding-left: 6%;
+}
+
+#rhonda_reeve_links a{
+    padding: 10px;
+	color: white;
+}
+
+/* Change color on hover */
+#rhonda_reeve_links a:hover {
+	color: #DA0037;
+}
+
+
+
+
+#brittany_hopkins_info {
+    border-style: solid;
+    border-width: 6px;
+    border-color: #DA0037;
+    background-color: #444444;
+    padding: 10px;
+    margin-top: 3%;
+    overflow: auto;
+    display: inline-block;
+}
+
+#brittany_hopkins_img_container {
+	float: left;
+    margin-right: 2%;
+}
+
+#brittany_hopkins_img {
+   width: 350px;
+   height: 375px;
+   border-radius: 10px;
+   padding-top: 7px;
+}
+
+#brittany_hopkins_txt {
+    color: white;
+    padding: 10px;
+}
+
+#brittany_hopkins_contact {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+#brittany_hopkins_links {
+	margin-left: auto;
+    padding-left: 6%;
+}
+
+#brittany_hopkins_links a{
+    padding: 10px;
+	color: white;
+}
+
+/* Change color on hover */
+#brittany_hopkins_links a:hover {
+	color: #DA0037;
+}
+
+
+
+
+#footer {
+    clear: both;
+    margin-top: 3%;
+}
+
+#footer p{
+    font-size: 15px !important;
+    text-align: center;
+}
